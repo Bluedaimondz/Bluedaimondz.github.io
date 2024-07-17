@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Daimond</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: url('https://scontent.fbkk28-1.fna.fbcdn.net/v/t1.6435-9/48376433_306443486659610_1767041956090740736_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2a1932&_nc_ohc=BwtREnOcD7UQ7kNvgGNgT_h&_nc_ht=scontent.fbkk28-1.fna&oh=00_AYA8ply5NltIztHYd17KrPqHgzetgLcit4F392DPGjU76A&oe=66BEBFA7') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+       
+
+        nav ul li a:hover {
+            color: #a777e3;
+        }
+
+        main {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+
+        .video-description {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .btn-back, .btn-next {
+            background-color: #a777e3;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-back:hover, .btn-next:hover {
+            background-color: #6e8efb;
+        }
+
+        footer {
+           
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+         
+        font {
+            color: black;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        a {
+    color: inherit; /* ใช้สีเดียวกับข้อความรอบๆ */
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anime Daimond</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="อนิเมะ.html">Home</a></li>
+            <li><a href="#">Anime List</a></li>
+            <li><a href="#">Genres</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <font>
+       <h1>Tsue to Tsurugi no Wistoria ตำนานดาบและคทาแห่งวิสตอเรีย ตอนที่ 1 ซับไทย</h1>
+        </font>
+    
+    <main>
+        <div class="video-container">
+            <iframe src="https://ok.ru/videoembed/7153894427333" allowfullscreen></iframe>
+        </div>
+        <div class="video-description">
+            <button class="btn-back"><a href="อนิเมะ.html">กลับหน้าหลัก</button>
+            <button class="btn-back"><a href="ดู.html">ตอนถัดไป</button>
+            <p>วิล หนุ่มน้อยที่เข้าโรงเรียนเวทมนตร์วิสตอเรียมีเป้าหมายจะเป็นผู้ใช้คทาที่มีความสามารถสูงสุดในโลกเวท ขณะที่มีความสำคัญในการพึ่งพาของคทาอาวุธ นั่นก็คือเขาไม่สามารถใช้เวทมนตร์ได้เลย ถูกเพื่อนร่วมชั้นและอาจารย์มองด้วยสายตาดูถูกเหยียดหยาม แต่ด้วยความแน่วแน่ของวิลจึงไม่ละความพยายาม ใช้ดาบเข้าไปใช้ในการฝึกใช้เวทมนตร์ เขาต่อสู้อยู่ในโลกที่เวทมนตร์เป็นใหญ่</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; By Nong Bluedaimond.</p>
+    </footer>
+</body>
+</html>
